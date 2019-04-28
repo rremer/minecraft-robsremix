@@ -1,0 +1,17 @@
+{ 
+	Profession:"vtt:tinkerer",
+	Career:"tinkerer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:15,max:20}},sell:{id:"minecraft:emerald",Count:5}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:15}},sell:{id:"tconstruct:cast",Count:1,tag:{PartType:"tconstruct:tool_rod"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:15}},sell:{id:"tconstruct:cast",Count:1,tag:{PartType:"tconstruct:tough_tool_rod"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:30}},sell:{id:"tconstruct:toolforge",Count:1,tag:{textureBlock:{id:"minecraft:iron_block",Count:1b,Damage:0s}}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:15}},sell:{id:"tconstruct:cast_custom",Count:1}, CareerLevel:1}
+
+		]
+	}
+
+}

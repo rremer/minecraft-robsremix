@@ -1,0 +1,20 @@
+{ 
+	Profession: "vtt:redstoner", 
+	Career:"jeweler",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:0,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:1,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:2,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:3,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:4,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:5,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:1,max:10}},buy:{id:"biomesoplenty:gem",Damage:6,Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"minecraft:emerald",Count:{min:3,max:5}},buy:{id:"minecraft:gold_ingot",Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"tconstruct:materials",Damage:16,Count:1},buy:{id:"minecraft:emerald",Count:20}, CareerLevel:2}
+		]
+	}
+
+}

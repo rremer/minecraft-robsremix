@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "minecraft:butcher"
+	},
+	careers: [
+		"butcher",
+                "stonemason",
+                "baker"
+	]
+}
