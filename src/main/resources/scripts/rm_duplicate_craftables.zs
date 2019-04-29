@@ -7,7 +7,6 @@ import crafttweaker.item.IIngredient;
 
 val rmArray = [
   <storagedrawers:tape>,
-  <horsepower:chopper>,
 ] as IIngredient[];
 
 for key in rmArray {

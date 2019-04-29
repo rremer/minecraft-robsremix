@@ -1,6 +1,6 @@
-# minecraft-foody
+# minecraft-robsremix
 
-[![Build Status](https://travis-ci.org/rremer/minecraft-foody.svg?branch=master)](https://travis-ci.org/rremer/minecraft-foody)
+[![Build Status](https://travis-ci.org/rremer/minecraft-robsremix.svg?branch=master)](https://travis-ci.org/rremer/minecraft-robsremix)
 
 A Forge client/server modpack for Minecraft.
 
@@ -17,13 +17,24 @@ Currently, this modpack is distributed as a [MultiMC] zip.
 7. Enter your Mojang login credentials
 8. On the top-left of the MultiMC window, click on "Add Instance" and "Import from Zip"
 9. Paste in this URL: [MMC client release 1.0.0] and click "OK"
-10. When the download finishes, double-click 'Foody-1.0.0-client-mmc'
+10. When the download finishes, double-click 'RobsRemix-1.0.0-client-mmc'
 
 ## Motivation
 
-Make a modpack that encourages collaboration between my friends.
+A modpack that encourages collaboration between my friends. There are a few personas this modpack targets, while attempting to avoid the 'multiplayer solitaire' that some larger packs suffer from:
 
-Issues and pull requests are welcome, and I encourage you to fork and enjoy!
+### The server-halting adventurer
+
+Roguelike Dungeons and Twilight Forest are at the core of this persona. They're exploration does not need to be a lonely endeavor, as Player Revive is in effect, and losing your gear is not devastating (Keep Equipment configured for armor and weapons on respawn). Additionally, Chunk Pregenerator is installed to eliminate lag from exploration (server side only).
+
+### The automating loaner, a.k.a. "Rob"
+
+Applied Energistics is at the core of this persona. This player is likely to interact with the adverturous players in order to retreive the materials they need (blueprints, crystals). This player may venture out with others for boss-fights, to show off their advanced weapons and armor.
+
+### The homely farmer
+
+Pam's Harvestcraft and Forestry are at the core of this persona. Rustic and a plethora of creative building materials aid in their nesting. Spice of Life: Carrot Edition brings this user into multiplayer by making their culinary creations a valuable asset to other players.
+
 
 ## Development
 
@@ -53,6 +64,6 @@ Choose from the following pre-packaged releases:
 
 [MultiMC]:https://multimc.org/
 [Download MultiMC]:https://multimc.org/#Download
-[MMC client release 1.0.0]:https://storage.googleapis.com/minecraft-foody/1.0.0/Foody-1.0.0-client-mmc.zip
-[server release 1.0.0]:https://storage.googleapis.com/minecraft-foody/1.0.1/Foody-1.0.0-server.zip
+[MMC client release 1.0.0]:https://storage.googleapis.com/minecraft-robsremix/1.0.0/RobsRemix-1.0.0-client-mmc.zip
+[server release 1.0.0]:https://storage.googleapis.com/minecraft-robsremix/1.0.1/RobsRemix-1.0.0-server.zip
 [rremer/terraform-minecraft]:https://github.com/rremer/terraform-minecraft

@@ -1,0 +1,26 @@
+// generate 100 chunks around overworld spawn
+startMassRadius Square s s 100 0
+// then 100 chunks around the nother, twilight, deep dark, and end
+startMassRadius Square 0 0 100 -1
+startMassRadius Square 0 0 100 7
+startMassRadius Square 0 0 100 -100
+// then 1000 around the overworld, end, and twilight, and nether
+startMassRadius Square 0 0 1000 0
+startMassRadius Square 0 0 1000 -1
+startMassRadius Square 0 0 1000 7
+startMassRadius Square 0 0 1000 1
+// then 4000 around the overworld and twilight
+startMassRadius Square 0 0 4000 0
+startMassRadius Square 0 0 4000 7
+// then 4000 around the overworld and twilight
+startMassRadius Square 0 0 4000 0
+startMassRadius Square 0 0 4000 7
+// then 8000 around the overworld and twilight
+startMassRadius Square 0 0 8000 0
+startMassRadius Square 0 0 8000 7
+// then 8000 around the overworld and twilight
+startMassRadius Square 0 0 12000 0
+startMassRadius Square 0 0 12000 7
+// then 8000 around the overworld and twilight
+startMassRadius Square 0 0 16000 0
+startMassRadius Square 0 0 16000 7

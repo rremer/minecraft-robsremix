@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.rremer</groupId>
-  <artifactId>minecraft-foody</artifactId>
+  <artifactId>minecraft-robsremix</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Foody</name>
+  <name>RobsRemix</name>
   <description>A Forge client/server modpack for Minecraft.</description>
   <url>https://github.com/rremer/minecraft-foody</url>
 
@@ -36,10 +36,25 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
+    <url.appliedenergistics>/2652/453/appliedenergistics2-rv6-stable-6.jar</url.appliedenergistics>
+    <url.extracells>/2653/854/ExtraCells-1.12.2-2.6.2a.jar</url.extracells>
+    <url.ae2stuff>/2491/32/ae2stuff-0.7.0.4-mc1.12.2.jar</url.ae2stuff>
+    <url.wirelesscraftingterminal>/2654/188/WirelessCraftingTerminal-1.12.2-3.11.88.jar</url.wirelesscraftingterminal>
+    <url.thaumicenergistics>/2686/134/thaumicenergistics-2.2.1.jar</url.thaumicenergistics>
+    <url.jee>/2663/371/JustEnoughEnergistics-1.12.2-1.0.6.jar</url.jee>
+    <url.bdlib>/2518/31/bdlib-1.14.3.12-mc1.12.2.jar</url.bdlib>
+    <url.wirelesscraftingterminallib>/2699/293/p455w0rdslib-1.12.2-2.1.44.jar</url.wirelesscraftingterminallib>
+    <url.ae2wtlib>/2653/753/AE2WTLib-1.12.2-1.0.6.jar</url.ae2wtlib>
+    <url.ic2>/2704/603/industrialcraft-2-2.8.132-ex112.jar</url.ic2>
+    <url.forestry>/2684/780/forestry_1.12.2-5.8.2.387.jar</url.forestry>
+    <url.binniemods>/2676/539/binnie-mods-1.12.2-2.5.1.188.jar</url.binniemods>
+    <url.jeibees>/2490/58/jeibees-0.9.0.5-mc1.12.2.jar</url.jeibees>
     <url.jeivillagers>/2508/393/jeivillagers-1.12-1.0.2.jar</url.jeivillagers>
+    <url.journeymap>/2704/60/journeymap-1.12.2-5.5.5b5.jar</url.journeymap>
     <url.cosmeticarmorreworked>/2595/679/CosmeticArmorReworked-1.12.2-v3.jar</url.cosmeticarmorreworked>
     <url.villagertrades>/2441/265/VillagerTrades-1.12-0.6.4.jar</url.villagertrades>
     <url.athenaeum>/2545/134/athenaeum-1.12.2-1.14.0.jar</url.athenaeum>
+    <url.chunkpregenerator>/2676/149/Chunk+Pregenerator+V1.12-2.1.jar</url.chunkpregenerator>
     <url.darkutilities>/2694/889/DarkUtils-1.12.2-1.8.226.jar</url.darkutilities>
     <url.notenoughscaffold>/2581/687/NotEnoughScaffold-1.12.2-1.8.jar</url.notenoughscaffold>
     <url.earthworks>/2486/190/Earthworks-1.12-1.3.6.jar</url.earthworks>
@@ -51,6 +66,8 @@
     <url.pams-harvestcraft>/2696/248/Pam%27s+HarvestCraft+1.12.2zc+The+7mm+Kidney+Stone+Update.jar</url.pams-harvestcraft>
     <url.fastleafdecay>/2463/272/FastLeafDecay-v14.jar</url.fastleafdecay>
     <url.agricraft>/2609/648/AgriCraft-2.12.0-1.12.0-a6.jar</url.agricraft>
+    <url.grapplemod>/2604/993/grapplemod-v11.1-1.12.2.jar</url.grapplemod>
+    <url.mekanism>/2701/541/Mekanism-1.12.2-9.7.2.373.jar</url.mekanism>
     <url.biomesoplenty>/2698/810/BiomesOPlenty-1.12.2-7.0.1.2427-universal.jar</url.biomesoplenty>
     <url.storagedrawers>/2642/386/StorageDrawers-1.12.2-5.3.8.jar</url.storagedrawers>
     <url.stg>/2514/413/stg-1.11.2-1.1.2.jar</url.stg>
@@ -76,10 +93,12 @@
     <url.giacomosbookshelf>/2500/80/GiacomosBookshelf-1.12.2-1.2.jar</url.giacomosbookshelf>
     <url.giacomosfoundry>/2496/84/GiacomosFoundry-1.12.2-1.3.13.jar</url.giacomosfoundry>
     <url.wailaharvestability>/2481/605/WailaHarvestability-mc1.12-1.1.12.jar</url.wailaharvestability>
-    <url.ftbutilities>/2548/713/FTBUtilities-5.0.1.12.jar</url.ftbutilities>
+    <url.ftbutilities>/2703/293/FTBUtilities-5.4.0.95.jar</url.ftbutilities>
+    <url.ftbutilitiesbackups>/2693/995/FTBUtilitiesBackups-1.0.0.3.jar</url.ftbutilitiesbackups>
     <url.ftblib>/2548/712/FTBLib-5.0.1.15.jar</url.ftblib>
     <url.crafttweaker2>/2554/607/CraftTweaker2-1.12-4.1.8.jar</url.crafttweaker2>
     <url.enchantmentdescriptions>/2529/811/EnchantmentDescriptions-1.12.2-1.1.8.jar</url.enchantmentdescriptions>
+    <url.extrautilities>/2678/374/extrautils2-1.12-1.9.9.jar</url.extrautilities>
     <url.controlling>/2522/248/Controlling-3.0.6.jar</url.controlling>
     <url.ctm>/2642/375/CTM-MC1.12.2-0.3.3.22.jar</url.ctm>
     <url.solcarrot>/2484/559/solcarrot-1.12.1-1.2.0.jar</url.solcarrot>
@@ -174,6 +193,126 @@
             <configuration>
               <url>${url.forge.source}${url.forge.installer}</url>
               <outputDirectory>${url.forge.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.extracells</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.extracells}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.ae2stuff</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.ae2stuff}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.wirelesscraftingterminal</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.wirelesscraftingterminal}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.thaumicenergistics</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.thaumicenergistics}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.jee</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.jee}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.bdlib</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.bdlib}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.wirelesscraftingterminallib</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.wirelesscraftingterminallib}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.forestry</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.forestry}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.binniemods</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.binniemods}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.jeibees</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.jeibees}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.ic2</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.ic2}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.ae2wtlib</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.ae2wtlib}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
           <execution>
@@ -503,6 +642,26 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.crafttweaker2}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.appliedenergistics</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.appliedenergistics}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.extrautilities</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.extrautilities}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
@@ -983,6 +1142,56 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.darkutilities}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.chunkpregenerator</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.chunkpregenerator}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.ftbutilititiesbackups</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.ftbutilitiesbackups}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.mekanism</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.mekanism}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.grapplemod</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.grapplemod}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.journeymap</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.journeymap}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
