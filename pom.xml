@@ -93,9 +93,6 @@
     <url.giacomosbookshelf>/2500/80/GiacomosBookshelf-1.12.2-1.2.jar</url.giacomosbookshelf>
     <url.giacomosfoundry>/2496/84/GiacomosFoundry-1.12.2-1.3.13.jar</url.giacomosfoundry>
     <url.wailaharvestability>/2481/605/WailaHarvestability-mc1.12-1.1.12.jar</url.wailaharvestability>
-    <url.ftbutilities>/2703/293/FTBUtilities-5.4.0.95.jar</url.ftbutilities>
-    <url.ftbutilitiesbackups>/2693/995/FTBUtilitiesBackups-1.0.0.3.jar</url.ftbutilitiesbackups>
-    <url.ftblib>/2548/712/FTBLib-5.0.1.15.jar</url.ftblib>
     <url.crafttweaker2>/2554/607/CraftTweaker2-1.12-4.1.8.jar</url.crafttweaker2>
     <url.enchantmentdescriptions>/2529/811/EnchantmentDescriptions-1.12.2-1.1.8.jar</url.enchantmentdescriptions>
     <url.extrautilities>/2678/374/extrautils2-1.12-1.9.9.jar</url.extrautilities>
@@ -616,26 +613,6 @@
             </configuration>
           </execution>
           <execution>
-            <id>url.ftbutilities</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.ftbutilities}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.ftblib</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.ftblib}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
             <id>url.crafttweaker2</id>
             <goals>
               <goal>wget</goal>
@@ -1152,16 +1129,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.chunkpregenerator}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.ftbutilititiesbackups</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.ftbutilitiesbackups}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
