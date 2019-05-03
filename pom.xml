@@ -4,7 +4,7 @@
 
   <groupId>org.rremer</groupId>
   <artifactId>minecraft-robsremix</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>RobsRemix</name>
@@ -75,7 +75,6 @@
     <url.packingtape>/2543/435/PackingTape-1.12.2-0.7.6.jar</url.packingtape>
     <url.inventorytweaks>/2482/481/InventoryTweaks-1.63.jar</url.inventorytweaks>
     <url.jei>/2702/121/jei_1.12.2-4.15.0.278.jar</url.jei>
-    <url.justenoughresources>/2523/823/JustEnoughResources-1.12.2-0.8.7.41.jar</url.justenoughresources>
     <url.norecipebook>/2527/726/noRecipeBook_v1.1.0formc1.12.2.jar</url.norecipebook>
     <url.akashictome>/2476/494/AkashicTome-1.2-10.jar</url.akashictome>
     <url.wopper>/2456/802/Wopper-1.12-r5.jar</url.wopper>
@@ -429,16 +428,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.jei}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.justenoughresources</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.justenoughresources}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
