@@ -9,6 +9,9 @@ import crafttweaker.item.IIngredient;
 val rmArray = [
   <charset:icon>,
   <sereneseasons:ss_icon>,
+  <bibliocraft:testeritem>,
+  <ic2:debug_item>,
+  <agrifcraft:debugger>,
   <biomesoplenty:earth>,
   <minecraft:fish>,
   <quark:gunpowder_block>,
