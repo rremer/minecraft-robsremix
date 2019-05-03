@@ -11,7 +11,7 @@ val rmArray = [
   <sereneseasons:ss_icon>,
   <bibliocraft:testeritem>,
   <ic2:debug_item>,
-  <agrifcraft:debugger>,
+  <agricraft:debugger>,
   <biomesoplenty:earth>,
   <minecraft:fish>,
   <quark:gunpowder_block>,
