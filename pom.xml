@@ -108,7 +108,6 @@
     <url.supersoundmuffler>/2477/723/supersoundmuffler-1.12.1-1.0.2.9.jar</url.supersoundmuffler>
     <url.tallgates>/2512/376/TallGates-1.12.2-1.0.0.1.jar</url.tallgates>
     <url.huntingdimension>/2551/258/HuntingDimension-1.12.2-1.0.24.jar</url.huntingdimension>
-    <url.deathcompass>/2548/690/DeathCompass-0.0.2.jar</url.deathcompass>
     <url.farmingforblockheads>/2549/222/FarmingForBlockheads_1.12.2-3.1.12.jar</url.farmingforblockheads>
     <url.baubles>/2518/667/Baubles-1.12-1.5.2.jar</url.baubles>
     <url.keepequipment>/2540/732/keepequipment-1.01.jar</url.keepequipment>
@@ -750,16 +749,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.huntingdimension}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.deathcompass</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.deathcompass}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
