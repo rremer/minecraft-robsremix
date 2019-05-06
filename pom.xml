@@ -36,7 +36,6 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
-    <url.betterquesting>/2702/104/BetterQuesting-3.5.299.jar</url.betterquesting>
     <url.buildcraftcore>/2702/33/buildcraft-core-7.99.24.1.jar</url.buildcraftcore>
     <url.buildcraftfactory>/2702/36/buildcraft-factory-7.99.24.1.jar</url.buildcraftfactory>
     <url.appliedenergistics>/2652/453/appliedenergistics2-rv6-stable-6.jar</url.appliedenergistics>
@@ -429,16 +428,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.jei}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.betterquesting</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.betterquesting}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
