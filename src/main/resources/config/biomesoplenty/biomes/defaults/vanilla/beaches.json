@@ -1,30 +1,5 @@
 {
-  "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
-  "skyColor": -1,
-  "fogDensity": 1.0,
-  "hasBiomeEssence": false,
-  "variationBelow": 3.0,
-  "variationAbove": 4.0,
-  "seaFloorBlock": {
-    "block": "minecraft:dirt",
-    "properties": {
-      "snowy": "false",
-      "variant": "dirt"
-    }
-  },
-  "fillerBlock": {
-    "block": "minecraft:gravel",
-    "properties": {}
-  },
-  "averageHeight": 64.0,
-  "topBlock": {
-    "block": "minecraft:gravel",
-    "properties": {}
-  },
-  "fogColor": -1,
-  "canGenerateVillages": false,
-  "canSpawnInBiome": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -36,6 +11,25 @@
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
       "enable": true
+    },
+    "sea_oats": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "sea_oats"
+        }
+      },
+      "generationAttempts": 96,
+      "amountPerChunk": 6.0,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "sea_oats"
+        }
+      }
     },
     "miners_delight": {
       "with": {
@@ -59,6 +53,5 @@
       "amountPerChunk": 4.0,
       "enable": true
     }
-  },
-  "weights": {}
+  }
 }
