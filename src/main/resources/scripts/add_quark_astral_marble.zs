@@ -1,5 +1,5 @@
 /*
-  quark marble should be usable as astral sorcery marble
+  quark marble should be in the oredict
 */
 
 val marbleOreDict = <ore:blockMarble>;
