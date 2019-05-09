@@ -21,6 +21,7 @@
       </includes>
       <excludes>
         <exclude>Chunk+Pregenerator*</exclude>
+        <exclude>Aroma*</exclude>
       </excludes>
     </fileSet>
     <fileSet>

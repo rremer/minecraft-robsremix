@@ -36,6 +36,9 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
+    <url.aromacore>/2690/354/Aroma1997Core-1.12.2-2.0.0.2.b165.jar</url.aromacore>
+    <url.aromabackup>/2672/446/AromaBackup-1.12.2-3.0.0.0.b117.jar</url.aromabackup>
+    <url.aromaformat>/2672/450/gitformat-3.0.0.0.b117.jar</url.aromaformat>
     <url.buildcraftcore>/2702/33/buildcraft-core-7.99.24.1.jar</url.buildcraftcore>
     <url.buildcraftfactory>/2702/36/buildcraft-factory-7.99.24.1.jar</url.buildcraftfactory>
     <url.appliedenergistics>/2652/453/appliedenergistics2-rv6-stable-6.jar</url.appliedenergistics>
@@ -618,6 +621,36 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.crafttweaker2}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.aromacore</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.aromacore}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.aromabackup</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.aromabackup}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.aromaformat</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.aromaformat}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
