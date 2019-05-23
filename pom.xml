@@ -81,7 +81,6 @@
     <url.inventorytweaks>/2482/481/InventoryTweaks-1.63.jar</url.inventorytweaks>
     <url.jei>/2702/121/jei_1.12.2-4.15.0.278.jar</url.jei>
     <url.akashictome>/2476/494/AkashicTome-1.2-10.jar</url.akashictome>
-    <url.wopper>/2456/802/Wopper-1.12-r5.jar</url.wopper>
     <url.backtools>/2487/71/BackTools-1.12.2-7.0.0.jar</url.backtools>
     <url.roguelikedungeons>/2492/586/RoguelikeDungeons-1.12.2-1.8.0.jar</url.roguelikedungeons>
     <url.cyclopscore>/2540/388/CyclopsCore-1.12.2-0.11.5.jar</url.cyclopscore>
@@ -461,16 +460,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.akashictome}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.wopper</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.wopper}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
